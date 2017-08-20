@@ -2,9 +2,9 @@
 UseFelslateFor = {
 	["Blue"] = false,
 	["Green"] = false,
-	["Red"] = false,
+	["Purple"] = false,
 	["Yellow"] = true,
 	["Orange"] = false,
-	["Purple"] = false,
+	["Red"] = false,
 }
 ResetOre = 123918

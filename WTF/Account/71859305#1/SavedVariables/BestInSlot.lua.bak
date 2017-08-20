@@ -11,12 +11,6 @@ BestInSlotDB = {
 			},
 		},
 		["Everbot - Illidan"] = {
-			["windowpos"] = {
-				["xOffset"] = -20.9999599456787,
-				["relativePoint"] = "CENTER",
-				["point"] = "CENTER",
-				["yOffset"] = -57.9999389648438,
-			},
 			["options"] = {
 				["overviewfilter"] = {
 					[256] = true,
@@ -29,9 +23,9 @@ BestInSlotDB = {
 						[7] = 147166,
 						[8] = 146987,
 						[10] = 146988,
-						[13] = 147016,
-						[9] = 147000,
 						[5] = 147167,
+						[9] = 147000,
+						[13] = 147016,
 					},
 				}, -- [1]
 			},
@@ -46,6 +40,12 @@ BestInSlotDB = {
 				"HoV", -- [3]
 				[5] = 2,
 				[6] = 256,
+			},
+			["windowpos"] = {
+				["xOffset"] = -20.9999599456787,
+				["yOffset"] = -57.9999389648438,
+				["point"] = "CENTER",
+				["relativePoint"] = "CENTER",
 			},
 		},
 	},
