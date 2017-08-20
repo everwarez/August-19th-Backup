@@ -1,0 +1,12 @@
+tag 571e8c67fc92aa9479fc768f8d2983d71a97ab50 2.4.16
+Author:	Benjamin Staneck <staneck@gmail.com>
+Date:	Tue Jul 25 00:20:50 2017 +0200
+
+commit 334ce71855a5d0edb0378b2fb6df9d064470d5f5
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Tue Jul 25 00:20:36 2017 +0200
+
+    Revert "Reset duration info on applying a state without progress information"
+    
+    This reverts commit 8a99fb211ea21bc3f99acd17527d3eec9b36fb16.
+

@@ -1,0 +1,7 @@
+changeset:   110:5021d5125484
+tag:         v51
+user:        yellowfive
+date:        Wed Jun 14 21:00:53 2017 -0700
+summary:     Added Tomb of Sargeras to auto-logging.
+
+

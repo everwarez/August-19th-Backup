@@ -1,0 +1,15 @@
+GarrisonMissionManager: enabled
+ZygorGuidesViewer: enabled
+GottaGoFast: enabled
+GottaGoFastHistory: enabled
+PremadeGroupsFilter: enabled
+WorldQuestsList: enabled
+WorldQuestGroupFinder: disabled
+WorldQuestTracker: enabled
+ExRT: enabled
+WeakAurasOptions: enabled
+AskMrRobot: enabled
+TradeSkillMaster_Crafting: disabled
+TradeSkillMaster: disabled
+TradeSkillMaster_Shopping: disabled
+BadBoy: enabled

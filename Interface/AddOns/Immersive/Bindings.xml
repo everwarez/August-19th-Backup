@@ -1,0 +1,5 @@
+﻿<Bindings>
+  <Binding name="IMMERSIVE_PANIC" header="IMMERSIVE" default="SHIFT-F12">
+    TimeToPanic()
+  </Binding>
+</Bindings>

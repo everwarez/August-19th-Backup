@@ -1,0 +1,10 @@
+## Interface: 70200
+## Title: Player XP Bar
+## Notes: Display a little XP Bar in your Player Frame
+## Notes-frFR: Affiche une petite barre d'XP en dessous de votre portrait
+## Version: 2.5.6
+## Author: Kharthus
+## OptionalDeps: myAddOns
+## SavedVariables: PlayerXPBar_Config
+PlayerXPBar.xml
+options.xml

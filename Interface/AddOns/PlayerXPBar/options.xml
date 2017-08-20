@@ -1,0 +1,207 @@
+	<!--
+	//////////////////////////////////////////////
+	//
+	//		options.xml
+	//
+	//		Panel options
+	//
+	//////////////////////////////////////////////
+	-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="options.lua"/>
+	<CheckButton name="PlayerXPBarCheckTemplate" inherits="OptionsCheckButtonTemplate" virtual="true">
+		<HitRectInsets>
+			<AbsInset left="0" right="-100" top="0" bottom="0"/>
+		</HitRectInsets>
+		<Scripts>
+			<OnClick>
+				if ( self:GetChecked() ) then
+					PlaySound("igMainMenuOptionCheckBoxOff");
+				else
+					PlaySound("igMainMenuOptionCheckBoxOn");
+				end
+				PlayerXPBar_OptionsCheckButtonOnClick(self);
+			</OnClick>
+			<OnEnter>
+				if ( self.tooltipText ) then
+					GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+					GameTooltip:SetBackdropColor(0.0, 0.0, 0.0);
+					GameTooltip:SetText(self.tooltipText, 1.0, 1.0, 1.0);
+				end
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+		</Scripts>
+	</CheckButton>
+
+	<Slider name="PlayerXPBarSliderTemplate" inherits="OptionsSliderTemplate" virtual="true">
+		<Scripts>
+			<OnEnter>
+				if ( self.tooltipText ) then
+					GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+					GameTooltip:SetBackdropColor(0.0, 0.0, 0.5);
+					GameTooltip:SetText(self.tooltipText, 1.0, 1.0, 1.0);
+				end
+			</OnEnter>
+			<OnValueChanged>
+				PlaySound("igMainMenuOptionCheckBoxOn");	
+				PlayerXPBar_OptionsSliderOnValueChanged(self);
+			</OnValueChanged>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+		</Scripts>
+	</Slider >
+
+<Frame name="PlayerXPBarOptions" toplevel="true" frameStrata="MEDIUM" movable="true" enableMouse="true" hidden="true" parent="UIParent">
+		<Size>
+			<AbsDimension x="300" y="390" />
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER" />
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border"
+			tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />	
+				<Size>
+					<AbsDimension x="128" y="17" />
+				</Size>
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture name="PlayerXPBarTitle" file="Interface\DialogFrame\UI-DialogBox-Header">
+					<Size>
+						<AbsDimension x="350" y="64" />
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="0" y="12" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString inherits="GameFontNormal" text="Player XP Bar Options">
+					<Anchors>
+						<Anchor point="TOP" relativeTo="PlayerXPBarOptions">
+							<Offset>
+								<AbsDimension x="0" y="-3" />
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+
+			</Layer>
+		</Layers>
+		<Frames>
+			<CheckButton name="PlayerXPBarOptionsFrame_CheckButton1" inherits="PlayerXPBarCheckTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="TOP" relativeTo="PlayerXPBarOptions">
+						<Offset>
+							<AbsDimension x="-120" y="-50" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+
+			<CheckButton name="PlayerXPBarOptionsFrame_CheckButton2" inherits="PlayerXPBarCheckTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="TOP" relativeTo="PlayerXPBarOptions">
+						<Offset>
+							<AbsDimension x="-120" y="-90" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+
+			<CheckButton name="PlayerXPBarOptionsFrame_CheckButton3" inherits="PlayerXPBarCheckTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="TOP" relativeTo="PlayerXPBarOptions">
+						<Offset>
+							<AbsDimension x="-120" y="-130" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+
+			<CheckButton name="PlayerXPBarOptionsFrame_CheckButton4" inherits="PlayerXPBarCheckTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="TOP" relativeTo="PlayerXPBarOptions">
+						<Offset>
+							<AbsDimension x="-120" y="-170" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+
+			<CheckButton name="PlayerXPBarOptionsFrame_CheckButton5" inherits="PlayerXPBarCheckTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativePoint="TOP" relativeTo="PlayerXPBarOptions">
+						<Offset>
+							<AbsDimension x="-120" y="-210" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+
+			<Slider name="PlayerXPBarOptionsFrame_Slider1" inherits="PlayerXPBarSliderTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="PlayerXPBarOptions" relativePoint="TOP">
+						<Offset>
+							<AbsDimension x="-65" y="-260" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Slider>
+
+			<Slider name="PlayerXPBarOptionsFrame_Slider2" inherits="PlayerXPBarSliderTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="PlayerXPBarOptions" relativePoint="TOP">
+						<Offset>
+							<AbsDimension x="-65" y="-310" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Slider>
+
+			<Button name="PlayerXPBarOptionsSave" inherits="OptionsButtonTemplate" text="PXPBAR_CLOSE_BUTTON">
+				<Anchors>
+					<Anchor point="CENTER" relativePoint="BOTTOM" relativeTo="PlayerXPBarOptions">
+						<Offset>
+							<AbsDimension x="0" y="30" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						HideUIPanel(PlayerXPBarOptions);
+					</OnClick>
+				</Scripts>
+			</Button>
+			
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				PlayerXPBarOptions_OnLoad();
+			</OnLoad>
+			<OnShow>
+				PlayerXPBarOptions_OnShow();
+				PlaySound("igCharacterInfoOpen");
+			</OnShow>
+			<OnHide>
+				PlayerXPBarOptions_OnHide(self);
+				PlaySound("igCharacterInfoClose");
+			</OnHide>
+		</Scripts>	
+	</Frame>
+</Ui>

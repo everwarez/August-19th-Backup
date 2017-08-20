@@ -1,0 +1,110 @@
+
+TradeSkillMaster_ShoppingDB = {
+	["_currentProfile"] = {
+		["Everbot - Illidan"] = "Default",
+		["Everlit - Illidan"] = "Default",
+	},
+	["_version"] = 3,
+	["g@ @sniperVendorPrice"] = true,
+	["g@ @postBidPercent"] = 0.95,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Everbot - Illidan", -- [1]
+			"Everlit - Illidan", -- [2]
+		},
+		["factionrealm"] = {
+			"Horde - Illidan", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Illidan", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+		["auction"] = true,
+	},
+	["g@ @postUndercut"] = "1c",
+	["g@ @minDeSearchLvl"] = 1,
+	["g@ @maxDeSearchLvl"] = 735,
+	["_hash"] = 1861581,
+	["g@ @marketValueSource"] = "dbmarket",
+	["g@ @savedSearches"] = {
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1502618398,
+			["name"] = "dawnlight / exact",
+			["filter"] = "dawnlight / exact",
+		}, -- [1]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1502618194,
+			["name"] = "felslate / exact",
+			["filter"] = "felslate / exact",
+		}, -- [2]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1502618184,
+			["name"] = "felslate ore / exact",
+			["filter"] = "felslate ore / exact",
+		}, -- [3]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1502610273,
+			["name"] = "chaotic spinel / exact",
+			["filter"] = "chaotic spinel / exact",
+		}, -- [4]
+		{
+			["lastSearch"] = 1502610241,
+			["name"] = "skystone / exact",
+			["filter"] = "skystone / exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [5]
+		{
+			["lastSearch"] = 1502609822,
+			["name"] = "sangrite/exact",
+			["filter"] = "sangrite/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [6]
+		{
+			["lastSearch"] = 1502609756,
+			["name"] = "queen's opal / exact",
+			["filter"] = "queen's opal / exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [7]
+		{
+			["lastSearch"] = 1502609742,
+			["name"] = "deep amber / exact",
+			["filter"] = "deep amber / exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [8]
+		{
+			["lastSearch"] = 1502609678,
+			["name"] = "azsunite / exact",
+			["filter"] = "azsunite / exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [9]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1502609666,
+			["name"] = "/Tradeskill/Jewelcrafting/Uncommon",
+			["filter"] = "/Tradeskill/Jewelcrafting/Uncommon",
+		}, -- [10]
+		{
+			["searchMode"] = "crafting",
+			["lastSearch"] = 1502609439,
+			["name"] = "queen's opal",
+			["filter"] = "queen's opal",
+		}, -- [11]
+	},
+	["g@ @sniperSound"] = "TSM_NO_SOUND",
+	["g@ @normalPostPrice"] = "150% dbmarket",
+	["g@ @maxDeSearchPercent"] = 1,
+	["g@ @sniperCustomPrice"] = "0c",
+}

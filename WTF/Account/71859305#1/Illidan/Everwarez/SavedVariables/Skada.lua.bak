@@ -1,0 +1,161 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 5943,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DEATHKNIGHT",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["healingspells"] = {
+				},
+				["time"] = 0,
+				["interrupts"] = 0,
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedone"] = 0,
+				["damage"] = 5943,
+				["damagespells"] = {
+					["Rune Weapon: Attack"] = {
+						["hitmin"] = 119,
+						["id"] = 6603,
+						["min"] = 119,
+						["hitamount"] = 119,
+						["hitmax"] = 119,
+						["hit"] = 1,
+						["school"] = 1,
+						["max"] = 119,
+						["totalhits"] = 1,
+						["damage"] = 119,
+					},
+					["Blood Boil"] = {
+						["hitmin"] = 970,
+						["criticalamount"] = 1941,
+						["id"] = 50842,
+						["hitamount"] = 3883,
+						["criticalmin"] = 1941,
+						["hitmax"] = 971,
+						["min"] = 970,
+						["criticalmax"] = 1941,
+						["critical"] = 1,
+						["hit"] = 4,
+						["school"] = 32,
+						["totalhits"] = 5,
+						["max"] = 1941,
+						["damage"] = 5824,
+					},
+				},
+				["ccbreaks"] = 0,
+				["healed"] = {
+				},
+				["shielding"] = 0,
+				["id"] = "Player-57-0A32F607",
+				["healing"] = 0,
+				["auras"] = {
+					["Blood Plague"] = {
+						["name"] = "Blood Plague",
+						["active"] = 0,
+						["school"] = 32,
+						["id"] = 55078,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 0,
+					},
+				},
+				["damagetakenspells"] = {
+				},
+				["power"] = {
+				},
+				["ffdamagedonetargets"] = {
+				},
+				["name"] = "Everwarez",
+				["deathlog"] = {
+				},
+				["damagetaken"] = 0,
+				["maxhp"] = 18060,
+				["overhealing"] = 0,
+				["role"] = "NONE",
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["damagetaken"] = 0,
+		["power"] = {
+		},
+		["ffdamagedone"] = 0,
+		["healing"] = 0,
+		["auras"] = {
+		},
+		["mobtaken"] = 5943,
+		["shielding"] = 0,
+		["starttime"] = 1500810502,
+		["name"] = "Total",
+		["mobs"] = {
+			["Undercity Rat"] = {
+				["players"] = {
+					["Everwarez"] = {
+						["taken"] = 2912,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEATHKNIGHT",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 2912,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Maggot"] = {
+				["players"] = {
+					["Everwarez"] = {
+						["taken"] = 1941,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEATHKNIGHT",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1941,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Roach"] = {
+				["players"] = {
+					["Everwarez"] = {
+						["taken"] = 1090,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEATHKNIGHT",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1090,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["overhealing"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1500810502,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+	},
+}

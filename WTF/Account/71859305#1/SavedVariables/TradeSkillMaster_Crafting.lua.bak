@@ -1,0 +1,649 @@
+
+TradeSkillMaster_CraftingDB = {
+	["f@Horde - Illidan@evenStacks"] = false,
+	["f@Horde - Illidan@buyAH"] = false,
+	["f@Horde - Illidan@ignoreAlts"] = false,
+	["f@Horde - Illidan@crafts"] = {
+		[195881] = {
+			["mats"] = {
+				["i:130172"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Jeweled Lockpick",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 40,
+			["itemString"] = "i:130250",
+		},
+		[195926] = {
+			["mats"] = {
+				["i:130173"] = 5,
+				["i:130172"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Deep Amber Pendant",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130226",
+		},
+		[195864] = {
+			["mats"] = {
+				["i:130183"] = 2,
+				["i:130180"] = 3,
+				["i:130181"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Dawnlight Band",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130231",
+		},
+		[195883] = {
+			["mats"] = {
+				["i:130175"] = 10,
+				["i:124124"] = 1,
+				["i:130172"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Chatterstone",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130254",
+		},
+		[25493] = {
+			["mats"] = {
+				["i:20816"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Braided Copper Ring",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:20906",
+		},
+		[195907] = {
+			["mats"] = {
+				["i:130177"] = 1,
+				["i:130174"] = 5,
+				["i:130172"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Azsunite Pendant",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130228",
+		},
+		[195849] = {
+			["mats"] = {
+				["i:130174"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Quick Azsunite",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130216",
+		},
+		[195853] = {
+			["mats"] = {
+				["i:124124"] = 1,
+				["i:130180"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Quick Dawnlight",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130220",
+		},
+		[225902] = {
+			["mats"] = {
+				["i:123918"] = 20,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Sangrite",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130172",
+		},
+		[209608] = {
+			["mats"] = {
+				["i:130183"] = 3,
+				["i:130180"] = 2,
+				["i:130181"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Shadowruby Band",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:136713",
+		},
+		[225904] = {
+			["mats"] = {
+				["i:123919"] = 20,
+			},
+			["numResult"] = 1,
+			["name"] = "Sangrite",
+			["profession"] = "Jewelcrafting",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130172",
+		},
+		[195850] = {
+			["mats"] = {
+				["i:130176"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Versatile Skystone",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130217",
+		},
+		[195904] = {
+			["mats"] = {
+				["i:130174"] = 2,
+				["i:130176"] = 1,
+				["i:130175"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Azsunite Loop",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130225",
+		},
+		[53951] = {
+			["mats"] = {
+				["i:36918"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Precise Scarlet Ruby",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:40003",
+		},
+		[195912] = {
+			["mats"] = {
+				["i:130180"] = 6,
+				["i:124444"] = 2,
+				["i:130178"] = 1,
+				["i:130181"] = 1,
+				["i:124124"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Blessed Dawnlight Medallion",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130234",
+		},
+		[195854] = {
+			["mats"] = {
+				["i:124124"] = 1,
+				["i:130182"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Versatile Maelstrom Sapphire",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130221",
+		},
+		[26925] = {
+			["mats"] = {
+				["i:20816"] = 2,
+				["i:2840"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Woven Copper Ring",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:21931",
+		},
+		[195924] = {
+			["mats"] = {
+				["i:130176"] = 2,
+				["i:130175"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Skystone Loop",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130224",
+		},
+		[55401] = {
+			["mats"] = {
+				["i:41334"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Austere Earthsiege Diamond",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:41380",
+		},
+		[209607] = {
+			["mats"] = {
+				["i:130177"] = 5,
+				["i:130173"] = 1,
+				["i:130172"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Queen's Opal Pendant",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:136712",
+		},
+		[32259] = {
+			["mats"] = {
+				["i:2835"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Rough Stone Statue",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:25498",
+		},
+		[195882] = {
+			["mats"] = {
+				["i:130180"] = 3,
+				["i:130179"] = 3,
+				["i:124444"] = 10,
+				["i:130183"] = 3,
+				["i:130178"] = 3,
+				["i:130181"] = 3,
+				["i:130182"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "JewelCraft",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130251",
+		},
+		[195851] = {
+			["mats"] = {
+				["i:130177"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Masterful Queen's Opal",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130218",
+		},
+		[195855] = {
+			["mats"] = {
+				["i:130183"] = 1,
+				["i:124124"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Masterful Shadowruby",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130222",
+		},
+		[25255] = {
+			["mats"] = {
+				["i:2840"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Delicate Copper Wire",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:20816",
+		},
+		[195863] = {
+			["mats"] = {
+				["i:130181"] = 2,
+				["i:130179"] = 2,
+				["i:130182"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Maelstrom Band",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130230",
+		},
+		[195862] = {
+			["mats"] = {
+				["i:130183"] = 2,
+				["i:130179"] = 3,
+				["i:130181"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Prophetic Band",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130229",
+		},
+		[195902] = {
+			["mats"] = {
+				["i:130177"] = 1,
+				["i:130175"] = 1,
+				["i:130173"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Deep Amber Loop",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130223",
+		},
+		[195906] = {
+			["mats"] = {
+				["i:130176"] = 5,
+				["i:130174"] = 1,
+				["i:130172"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Skystone Pendant",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130227",
+		},
+		[195848] = {
+			["mats"] = {
+				["i:130173"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Deadly Deep Amber",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130215",
+		},
+		[195852] = {
+			["mats"] = {
+				["i:130179"] = 1,
+				["i:124124"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Deadly Eye of Prophecy",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:130219",
+		},
+		[209606] = {
+			["mats"] = {
+				["i:130177"] = 2,
+				["i:130174"] = 1,
+				["i:130175"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Jewelcrafting",
+			["name"] = "Queen's Opal Loop",
+			["players"] = {
+				["Everbot"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:136711",
+		},
+	},
+	["f@Horde - Illidan@ignoreDECheckBox"] = false,
+	["g@ @ignoreGuilds"] = {
+	},
+	["f@Horde - Illidan@playerProfessions"] = {
+		["Everbot"] = {
+			["Jewelcrafting"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-57-0A3269F1:195116:755|h[Jewelcrafting]|h|r",
+				["isSecondary"] = false,
+				["level"] = 760,
+				["maxLevel"] = 800,
+			},
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 700,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 700,
+				["maxLevel"] = 700,
+			},
+			["Alchemy"] = {
+				["isSecondary"] = false,
+				["level"] = 769,
+				["maxLevel"] = 800,
+			},
+		},
+		["Everlit"] = {
+			["Herbalism"] = {
+				["isSecondary"] = false,
+				["level"] = 420,
+				["maxLevel"] = 800,
+			},
+			["Mining"] = {
+				["isSecondary"] = false,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 700,
+			},
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 86,
+				["maxLevel"] = 700,
+			},
+		},
+	},
+	["g@ @frameQueueOpen"] = false,
+	["f@Horde - Illidan@ignoreIntermediate"] = false,
+	["g@ @ignoreCharacters"] = {
+	},
+	["g@ @profitPercent"] = 0,
+	["_currentProfile"] = {
+		["Everbot - Illidan"] = "Default",
+		["Everlit - Illidan"] = "Default",
+	},
+	["g@ @defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
+	["g@ @priceColumn"] = 1,
+	["g@ @ignoreCDCraftCost"] = true,
+	["f@Horde - Illidan@professionScanCache"] = {
+		["EverbotJewelcrafting"] = {
+			["hash"] = 6360077,
+			["scanTime"] = 1502618362,
+		},
+	},
+	["g@ @questSmartCrafting"] = true,
+	["f@Horde - Illidan@gathering"] = {
+		["selectedSources"] = {
+		},
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["extraMats"] = {
+		},
+	},
+	["g@ @showingDefaultFrame"] = true,
+	["f@Horde - Illidan@disableCheckBox"] = false,
+	["f@Horde - Illidan@queueStatus"] = {
+		["collapsed"] = {
+		},
+	},
+	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["g@ @queueSort"] = 1,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Everbot - Illidan", -- [1]
+			"Everlit - Illidan", -- [2]
+		},
+		["realm"] = {
+			"Illidan", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Illidan", -- [1]
+		},
+	},
+	["f@Horde - Illidan@inkTrade"] = false,
+	["_hash"] = 15983053,
+	["g@ @helpPlatesShown"] = {
+		["profession"] = true,
+		["gatheringFrame"] = true,
+	},
+	["_version"] = 7,
+	["f@Horde - Illidan@mats"] = {
+		["i:130174"] = {
+			["name"] = "Azsunite",
+		},
+		["i:41334"] = {
+			["name"] = "Earthsiege Diamond",
+		},
+		["i:124124"] = {
+			["name"] = "Blood of Sargeras",
+		},
+		["i:130177"] = {
+			["name"] = "Queen's Opal",
+		},
+		["i:130180"] = {
+			["name"] = "Dawnlight",
+		},
+		["i:130179"] = {
+			["name"] = "Eye of Prophecy",
+		},
+		["i:130173"] = {
+			["name"] = "Deep Amber",
+		},
+		["i:2835"] = {
+			["name"] = "Rough Stone",
+		},
+		["i:20816"] = {
+			["name"] = "Delicate Copper Wire",
+		},
+		["i:124444"] = {
+			["name"] = "Infernal Brimstone",
+		},
+		["i:123919"] = {
+			["name"] = "Felslate",
+		},
+		["i:130181"] = {
+			["name"] = "Pandemonite",
+		},
+		["i:36918"] = {
+			["name"] = "Scarlet Ruby",
+		},
+		["i:130176"] = {
+			["name"] = "Skystone",
+		},
+		["i:130178"] = {
+			["name"] = "Furystone",
+		},
+		["i:130175"] = {
+			["name"] = "Chaotic Spinel",
+		},
+		["i:130182"] = {
+			["name"] = "Maelstrom Sapphire",
+		},
+		["i:130183"] = {
+			["name"] = "Shadowruby",
+		},
+		["i:2840"] = {
+			["name"] = "Copper Bar",
+		},
+		["i:123918"] = {
+			["name"] = "Leystone Ore",
+		},
+		["i:130172"] = {
+			["name"] = "Sangrite",
+		},
+	},
+}

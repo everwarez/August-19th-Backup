@@ -1,0 +1,90 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="localization.lua"/>
+	<Script file="PlayerXPBar.lua"/>
+	<Frame name="PlayerXPBar" parent="UIParent" movable="true" enableMouse="true" frameStrata="BACKGROUND">
+		<Size>
+			<AbsDimension x="128" y="20"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativePoint="TOPLEFT">
+				<Offset>
+					<AbsDimension x="82" y="-66"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\TutorialFrame\TutorialFrameBackground" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+			<EdgeSize>
+				<AbsValue val="16"/>
+			</EdgeSize>
+			<BackgroundInsets>
+				<AbsInset left="4" right="4" top="4" bottom="4"/>
+			</BackgroundInsets>
+		</Backdrop>
+		<Frames>
+			<Button name="PlayerXPBarInfo" frameStrata="HIGH">
+				<Size>
+					<AbsDimension x="120" y="12" /> 
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="PlayerXPBar" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="4" y="-4"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseDown>
+						if (IsControlKeyDown()) then
+							PlayerXPBar:StartMoving();
+						elseif (IsShiftKeyDown()) then
+							PlayerXPBarButton_OnClick(button);
+						end
+					</OnMouseDown>
+					<OnMouseUp>
+						PlayerXPBar:StopMovingOrSizing();
+					</OnMouseUp>
+					<OnEnter>
+						PlayerXPBarButton_Enter(self);
+					</OnEnter>
+					<OnLeave>
+						PlayerXPBarButton_Leave();
+					</OnLeave>
+					<OnLoad>							    
+						PlayerXPBarButton_OnLoad(self);
+					</OnLoad>
+				</Scripts>
+			</Button>
+			<StatusBar name="PlayerXPBarExpBar" inherits="TextStatusBar" frameStrata="MEDIUM">
+				<Size>
+					<AbsDimension x="118" y="10"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="PlayerXPBar" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-5"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEvent>
+						PlayerXPBar_OnEvent(self,event,...);
+					</OnEvent>
+					<OnLoad>							    
+						PlayerXPBar_OnLoad(self);
+					</OnLoad>
+				</Scripts>
+				<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
+				<BarColor r="0.5" g="0" b="0.5"/>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="PlayerXPBar_Amount" inherits="GameFontNormalSmall">
+							<Shadow/>
+							<Color r="1" g="1" b="0"/>
+						</FontString>
+					</Layer>					
+				</Layers>
+			</StatusBar>
+		</Frames>
+	</Frame>
+</Ui>

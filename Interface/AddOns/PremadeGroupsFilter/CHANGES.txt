@@ -1,0 +1,58 @@
+tag 29cdc084fda9c4c6b9543a791fcf5bc138005f81 1.12
+Author:	Bernhard Saumweber <b.saumweber@gmail.com>
+Date:	Fri Jul 14 22:02:18 2017 +0200
+
+commit a5cc6e4b2e86a8d694be06ce81818dd97687e76e
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Mon Jul 10 17:01:00 2017 +0200
+
+    Attempt to fix a bug when ElvUI L&S is installed as well
+
+commit 80bb414bdef4343620836db8f0ca126219c05a0f
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Sat Jul 8 15:38:04 2017 +0200
+
+    Updated help tooltip with new keywords
+
+commit ae358fe74dd76329c98e840b0e65eff5a37ca048
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Sat Jul 8 14:02:58 2017 +0200
+
+    Fixed a nil pointer bug (category and filters are now also read from the SearchPanel)
+
+commit 069c599ddd71988d6077ef585adc5cbe4192a638
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Thu Jul 6 22:59:45 2017 +0200
+
+    Set version to next release version: 1.12
+
+commit 0b4cb739fcbc6c71c238dce516237254f12589a3
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Thu Jul 6 22:42:08 2017 +0200
+
+    The keyword matchingid can now be used to find raid groups with exactly the same defeated bosses as yourself. A more fine-tuned search for groups with a similar lockout can be done with the number-keywords bossesmatching, bossesahead and bossesbehind
+
+commit d7272015368be1cf16a22e8839fc6617c4af0eab
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Thu Jul 6 14:49:13 2017 +0200
+
+    Fixed a bug in the merged pull request which breaks the regex matching when the string contains e.g. Umlauts
+
+commit 689bf7ec398143f71ffd80eeca4f667b2d8b9f7d
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Thu Jul 6 14:42:44 2017 +0200
+
+    Groups with an empty leader name are no longer recognized as groups from my realm
+
+commit 1a378bb744df10c2395f83921aea5bba913c49bd
+Author: ltype <920687062@qq.com>
+Date:   Fri Jun 30 11:49:09 2017 +0800
+
+    fixed like chinese client bug
+
+commit 1a378bb744df10c2395f83921aea5bba913c49bd
+Author: ltype <920687062@qq.com>
+Date:   Fri Jun 30 11:49:09 2017 +0800
+
+    fixed like chinese client bug
+

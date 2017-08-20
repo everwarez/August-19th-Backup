@@ -1,0 +1,13 @@
+## Interface: 60000
+
+## Title: Masque: |cffffffffElvUIesque|r
+## Notes: ElvUIesque skin for Masque.
+## Version: 6.0.0
+
+## Author: lxxxv
+
+## X-Category: Action Bars
+## Dependencies: Masque
+
+
+Masque_ElvUIesque.lua

@@ -1,0 +1,12 @@
+## Interface: 70200
+## Title: Immersive
+## Author: GalaxyPup
+## Version: 1.5.10
+## Notes: Automatically manages the visibility of the HUD.|n|n|cffffbb00"Less HUD, More Game!"|r
+## URL: http://www.galaxypup.com/
+## SavedVariables: ImmersiveSettings
+## OptionalDeps: ElvUI, Tukui, LUI
+
+## X-SavedVariables: ImmersiveSettings
+
+AddOn.xml

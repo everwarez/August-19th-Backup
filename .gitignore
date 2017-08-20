@@ -1,0 +1,20 @@
+#Warcraft Game Files Ignored#
+#######################
+Cache/*
+Data/*
+Logs/*
+Utils/*
+Screenshots/*
+Interface/Addons/Blizzard_*
+Updates/*
+*.exe
+*.dll
+*.*fil
+*.db
+*cache*.*
+*.manifest
+*.mpq
+*info
+*.curseclient
+*.patch.result
+

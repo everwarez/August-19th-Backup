@@ -1,0 +1,12 @@
+WeakAurasOptions: enabled
+WeakAurasModelPaths: enabled
+WeakAurasTemplates: enabled
+WeakAuras: enabled
+AdvancedInterfaceOptions: enabled
+Masque_ElvUIesque: enabled
+Masque_Imoen: enabled
+MasterPlan: disabled
+Masque_Shadow: enabled
+Masque: enabled
+MacroToolkit: enabled
+MacroToolkitIcons: enabled

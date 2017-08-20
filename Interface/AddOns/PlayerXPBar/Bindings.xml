@@ -1,0 +1,12 @@
+<Bindings>
+	<Binding name="PLAYERXPBAR" description="Open Menu" runOnUp="true" header="PLAYERXPBARHEADER">
+		if (keystate == "down") then
+			if PlayerXPBarOptions:IsVisible()
+			then
+				PlayerXPBarOptions:Hide();
+			else
+				PlayerXPBarOptions:Show();
+			end
+		end
+	</Binding>
+</Bindings>

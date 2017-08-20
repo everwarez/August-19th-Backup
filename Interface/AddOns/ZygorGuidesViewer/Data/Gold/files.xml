@@ -1,0 +1,25 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/FrameXML/UI.xsd">
+	<Script file="us_aegwynn.lua"/>
+	<Script file="us_aegwynn_h.lua"/>
+	<Script file="us_auchindoun.lua"/>
+	<Script file="us_auchindoun_h.lua"/>
+	<Script file="us_chogall.lua"/>
+	<Script file="us_chogall_h.lua"/>
+	<Script file="us_frostwolf.lua"/>
+	<Script file="us_frostwolf_h.lua"/>
+	<Script file="us_hyjal.lua"/>
+	<Script file="us_hyjal_h.lua"/>
+	<Script file="us_illidan.lua"/>
+	<Script file="us_illidan_h.lua"/>
+	<Script file="us_laughing-skull.lua"/>
+	<Script file="us_laughing-skull_h.lua"/>
+	<Script file="us_smolderthorn.lua"/>
+	<Script file="us_smolderthorn_h.lua"/>
+	<Script file="us_stormrage.lua"/>
+	<Script file="us_stormrage_h.lua"/>
+	<Script file="us_stormreaver.lua"/>
+	<Script file="us_stormreaver_h.lua"/>
+	<Script file="us_tichondrius.lua"/>
+	<Script file="us_tichondrius_h.lua"/>
+	<Script file="xx_global.lua"/>
+</Ui>

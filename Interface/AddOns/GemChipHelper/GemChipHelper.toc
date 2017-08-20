@@ -1,0 +1,9 @@
+## Interface: 70000
+## Title: Gem Chip Helper
+## Author: Evan Graham
+## Version: 0.4.0
+## SavedVariables: UseFelslateFor, ResetOre
+
+localization.core.lua
+localization.ru.lua
+main.lua

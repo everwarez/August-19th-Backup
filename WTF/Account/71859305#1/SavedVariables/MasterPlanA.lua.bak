@@ -1,0 +1,157 @@
+
+MasterPlanAG = {
+	["Stormrage"] = {
+		["Felswole"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Alliance",
+		},
+	},
+	["Smolderthorn"] = {
+		["Morpheo"] = {
+			["faction"] = "Horde",
+			["class"] = "DRUID",
+		},
+		["Torrent"] = {
+			["faction"] = "Horde",
+			["class"] = "DEATHKNIGHT",
+		},
+		["Traelline"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Horde",
+		},
+		["Leecher"] = {
+			["faction"] = "Horde",
+			["class"] = "WARLOCK",
+		},
+		["Heinous"] = {
+			["faction"] = "Horde",
+			["class"] = "MAGE",
+		},
+		["Darkspore"] = {
+			["class"] = "DRUID",
+			["faction"] = "Horde",
+		},
+	},
+	["Aegwynn"] = {
+		["Nerunash"] = {
+			["class"] = "DEATHKNIGHT",
+			["faction"] = "Horde",
+		},
+	},
+	["Laughing Skull"] = {
+		["Dram"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+		["Felwinter"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Horde",
+		},
+		["Slicer"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Horde",
+		},
+		["Emoslayer"] = {
+			["faction"] = "Horde",
+			["class"] = "DEATHKNIGHT",
+		},
+		["Grahl"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[2] = 1496191029,
+				},
+			},
+			["faction"] = "Horde",
+			["lastCacheTime"] = 1501295097,
+			["curRes"] = 613,
+			["class"] = "DRUID",
+		},
+	},
+	["Illidan"] = {
+		["Everbot"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
+		},
+	},
+	["Frostwolf"] = {
+		["Darkpaw"] = {
+			["faction"] = "Alliance",
+			["class"] = "DRUID",
+		},
+	},
+	["Tichondrius"] = {
+		["Everbot"] = {
+			["class"] = "DRUID",
+			["faction"] = "Horde",
+		},
+		["Glaivefinder"] = {
+			["faction"] = "Horde",
+			["class"] = "DEMONHUNTER",
+		},
+	},
+	["Hyjal"] = {
+		["Destroya"] = {
+			["faction"] = "Horde",
+			["class"] = "MONK",
+		},
+		["Damworg"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Horde",
+		},
+		["Dramadar"] = {
+			["class"] = "DRUID",
+			["faction"] = "Horde",
+		},
+		["Catgnar"] = {
+			["class"] = "DRUID",
+			["summary"] = {
+				["ti1"] = 118531,
+				["inProgress"] = {
+					[117] = 1423652722,
+					[304] = 1423652729,
+					[274] = 1423652718,
+				},
+				["tt1"] = true,
+			},
+			["faction"] = "Horde",
+		},
+		["Jetstream"] = {
+			["faction"] = "Horde",
+			["class"] = "MONK",
+		},
+		["Meatbox"] = {
+			["faction"] = "Horde",
+			["class"] = "DRUID",
+		},
+		["Everwarez"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Horde",
+		},
+		["Mckraken"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Horde",
+		},
+		["Felwinter"] = {
+			["faction"] = "Horde",
+			["class"] = "DEMONHUNTER",
+		},
+	},
+	["Cho'gall"] = {
+		["Jasha"] = {
+			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+	},
+	["Auchindoun"] = {
+		["Mckraken"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Horde",
+		},
+	},
+	["Stormreaver"] = {
+		["Dramadar"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Horde",
+		},
+	},
+}
